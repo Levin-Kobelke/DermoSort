@@ -147,7 +147,9 @@ def get_dataset(train: bool) -> object:
         csv_file = f"{root}/{dataset}_binaryclass"
         df_train = pd.read_csv(csv_file)
         datafolder = dataset
-        dataroot = "/home/l049e/Data/"
+        #dataroot = "/home/l049e/Data/"
+        #local vs cluster
+        dataroot = "/dkfz/cluster/gpu/data/OE0612/l049e"
         data_dir = os.path.join(dataroot+datafolder)
         df_train["filepath"] = data_dir + "/" + df_train["filepath"]
         col_to_keep = ["filepath", "target"]
