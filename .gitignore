@@ -1,0 +1,11 @@
+classifier.ipynb
+derma_csv.ipynb
+df_all_dermoscopy.csv
+derma_csv.ipynb
+testimages
+.vscode
+.ipynb_checkpoints
+__pycache__
+*/.ipynb_checkpoints/*
+classifier.*
+image_aug.py
