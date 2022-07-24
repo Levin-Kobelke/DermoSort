@@ -6,7 +6,7 @@ Sorting is the main script. It comes with a pretrained classifier so training an
 The PyTorch scrip for training the classifier is included. To accquire the images go to the respective websites of the isic2020 challenge, ham10000, derm 7 point and ph2. The respective csv files transform the mixed multiclass challenges into a binary classification between benign and malignant based on the lesion type.
 # Testing
 To view results on the testset run the test.py script. This will create a confusion matrix as well as print the AUC score.
-![confusion matrix](https://github.com/Levin-Kobelke/DermoSort/edit/master/confMat.png?raw=true)
+![confusion matrix](https://user-images.githubusercontent.com/96979510/180654213-530be8bf-009e-45e0-8427-64475aad48cc.png)
 
 # Graphic User Interface
 Run the gui.py script for a graphical user interface. In this you can select the correct folder via a file dialog and sort by clicking. 
